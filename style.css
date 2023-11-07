@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nimbus Sans L';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+
+}
+#minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+.nav{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    
+}
+.nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+}
+.left{
+    display: flex;
+    gap: 20px;
+    
+}
+.center a{
+    font-size: 20px;
+}
+.hero{
+    padding: 3vw 10vw;
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+
+}
+.herol{
+    width: 10vw;
+    /* background-color: aqua; */
+}
+.herolimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.herol p{
+    opacity: .5;
+    font-size: 10px;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+.heroc{
+    height: 100%;
+    width: 25vw;
+    position: relative;
+
+
+}
+.herocheadings{
+    position: absolute;
+    top: -15%;
+    left: -27%;
+    line-height: 1;
+    
+    
+}
+.herocheadings h1{
+    font-weight: 400;
+    font-size: 5vw;
+    text-transform: uppercase;
+
+}
+.herocimg img{
+    width: 100%;
+}
+.herolimg{
+    position: relative;
+}
+
+.herocimg p{
+    width: 70%;
+    line-height: 1;
+    margin: 2px 0;
+    position: absolute;
+    opacity: 0.8;
+}
+.heror{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    width: fit-content;
+}
+.heroccircle{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #cfcbcb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroccircle i{
+    color: #cfcbcb
+}
+.heror h3{
+    color: #cfcbcb;
+}
+.herob{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 5vw;
+}
+.herobr{
+    display: flex;
+    text-align: right;
+}
+.herob p{
+    align-items: right;
+    font-size: 2vw;
+    right: 0;
+    position: relative;
+}
+.herob span{
+    display: inline-block;
+    background-color: red;
+    height: 40px;
+    margin-bottom: -10px;
+    width: 60px;
+    border-radius: 25px;
+    background-image: url(images/bluegirl.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture{
+    padding: 3vw;
+    padding-left: 18vw;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 14vw;
+}
+.picturel{
+    width: 17vw; 
+    margin-top: 7vw;
+}
+.picturel p, .picturer p{
+    opacity: 0.8;
+    line-height: 1;
+    font-size: 15px;
+}
+.picturel h1, .picturer h1{
+    opacity: 0.8;
+    margin-bottom: 0.3vw;
+    font-size: 25px;
+
+}
+.picturel .picturelimg{
+    height: 28vw;
+    width: 17vw;
+    margin-bottom: 1vw;
+}
+
+.picturelimg img ,.picturerimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.picturer{
+    padding-top: 10vw;
+    width: 20vw;
+    text-align: right;
+}
+.picturer .picturerimg{
+    width: 100%;
+    margin-bottom: 1vw;
+    height: 40vw;
+}
+
+.picb{
+    display: flex;
+    align-items: center;
+    padding-right: 10vw;
+    gap: 30px;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.picbl{
+    /* background-color: aqua; */
+    height: 70vh;
+    width: 65vw;
+}
+.picbl video{
+    height: 100%;
+    object-fit: cover;
+    /* opacity: 0.8; */
+    object-position: 0% 70%;
+    width: 100%;
+}
+.picbr{
+    /* text-align: right; */
+}
+.picbr h2{
+
+    font-size: 2vw;
+    line-height: 1;
+}
+.picbr p{
+    font-size: 0.8vw;
+    margin-top: 0.8vw;
+}
+.future{
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    padding-top: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.future video{
+    height: 100%;
+    width: 100%;
+    /* opacity: 0; */
+    position: absolute;
+
+    transform:  translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.ftext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+
+}
+.ftext button{
+    padding: .8vw 1.7vw;
+    font-size: .5vw;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid #dedede;
+}
+.grid, .grids, .gridvideo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.grids{
+    margin-top: 20px;
+}
+.elem{
+    height: 100%;
+    width: 50%;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gridvideo{
+    display: flex;
+    align-items: center;
+}
+.gridvideo video{
+    height: 80%;
+    width: 100%;
+}
